@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 
 class RoomList extends Component {
     render() {
+        console.log(this.props.rooms)
         return (
             <div className="rooms-list">
-                <div className="help-text">
-                    RoomList
-                </div>
+                <ul>
+                    <h3>Your Rooms:</h3>
+                    {this.props.rooms.map(room => {
+                        return (
+                            <li key={room.id} className="room">
+                                <a href="#"># {room.name}</a>
+                            </li>
+                        )
+                    })}
+                </ul>
             </div>
         )
     }

@@ -77,7 +77,11 @@ html, body {
   color: var(--secondary-text-color);
   font-weight: 600;
   text-decoration: none;
-  
+  transition: color 0.2s;
+}
+
+.rooms-list .room a:hover {
+  color: var(--secondary-color)
 }
 
 .rooms-list .room.active a {
