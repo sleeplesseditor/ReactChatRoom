@@ -190,4 +190,5 @@ html, body {
 .help-text {
   position: absolute;
   top: 10px;
+  color: var(--secondary-color);
 }

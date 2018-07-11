@@ -7,7 +7,7 @@ const DUMMY_DATA = [
     },
     {
         senderId: 'janedoe',
-        text: 'Great! How about you?'
+        text: 'Butts! How about you?'
     },
     {
         senderId: 'perborgen',
@@ -21,7 +21,14 @@ class MessageList extends Component {
             <div className="message-list">
                     {DUMMY_DATA.map((message, index) => {
                         return (
-                            <div>{message.text}</div>
+                            <div key={index} className="message">
+                                <div className="message-username">
+                                    {message.senderId}
+                                </div>
+                                <div className="message-text">
+                                    {message.text}
+                                </div>
+                            </div>
                         )
                     })}
             </div>
