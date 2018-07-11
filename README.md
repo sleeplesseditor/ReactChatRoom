@@ -4,3 +4,4 @@ A chat room app built using React and Chatkit, based on Per Harald Borgen's Scri
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+T
