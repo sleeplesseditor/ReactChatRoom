@@ -81,7 +81,7 @@ html, body {
 }
 
 .rooms-list .room a:hover {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .rooms-list .room.active a {
